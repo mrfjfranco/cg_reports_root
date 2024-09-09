@@ -18,10 +18,10 @@ def eod_reports_menu():
 # GUI Setup
 root = tk.Tk()
 root.title("Main Menu")
-root.geometry("300x250")  # Fixed window size (adjust the width and height as needed)
+root.geometry("300x300")  # Fixed window size (adjust the width and height as needed)
 
 # Add Labels and Buttons for the Options
-tk.Label(root, text="Choose a set of reports:", font=("Arial", 14)).pack(pady=20)
+tk.Label(root, text="Choose a report:", font=("Arial", 14)).pack(pady=20)
 
 # Button to open the Open Orders Reports menu
 tk.Button(root, text="Open Orders Reports", command=open_orders_menu).pack(pady=10, padx=50, anchor="center")
