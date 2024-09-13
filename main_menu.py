@@ -1,9 +1,10 @@
 import tkinter as tk
 import subprocess
 import os
-from auth import check_authorization
+from auth import check_authorization, check_message
 
 check_authorization()
+check_message()
 
 # Get the absolute path of the current directory
 base_dir = os.path.dirname(os.path.abspath(__file__))
