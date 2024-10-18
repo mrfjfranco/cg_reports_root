@@ -1,7 +1,7 @@
 <html>
     <body>
         <p>Good afternoon,</p>
-        <p>Below you’ll find today’s end of day report.</p>
+        <p>Below you will find today's end of day report.</p>
         <p><img src="cid:graph"></p>
         <p><b>Francisco J Franco</b><br>
         <b>Forward Logistics Senior Manager | Cooper General Global Services</b><br>
